@@ -3,6 +3,7 @@ package com.company;
 public class Runner {
 
     public static void main(String[] args) {
+        //Eugene Korsunsky and Jack Liu
         int[] score1 = {50,50,20,80,53};
         int[] score2 = {20,50,50,53,80};
         int[] score3 = {20,50,50,80};
