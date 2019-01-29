@@ -2,6 +2,11 @@ package com.company;
 
 public class StudentRecord {
     private int[] scores;
+
+    public StudentRecord(int[] scores){
+        this.scores = scores;
+    }
+
     public double average(int first, int last) {
         double sum = 0.0;
         for (int i = first; i <= last; i++) {
